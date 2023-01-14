@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T23:08:43.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="sgZphsdYRROaRAcBquz_" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T00:24:34.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gwpq_1-EqcZ8F1vocs2v" version="20.8.5" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
-    <mxGraphModel dx="1173" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1066" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="W_u4hgsqB1Eb9iGtBPcu-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2b4e8129b02d487f-2" source="2b4e8129b02d487f-5" target="2b4e8129b02d487f-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2b4e8129b02d487f-5" value="Peticion de chekeo" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="2b4e8129b02d487f-2" vertex="1">
+        <mxCell id="2b4e8129b02d487f-5" value="Peticion de chequeo" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="2b4e8129b02d487f-2" vertex="1">
           <mxGeometry x="70" y="50" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2b4e8129b02d487f-6" value="Mete las llaves en el automovil." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="2b4e8129b02d487f-2" vertex="1">
@@ -77,10 +77,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W_u4hgsqB1Eb9iGtBPcu-54" value="Si" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="2b4e8129b02d487f-2">
-          <mxGeometry x="1010" y="60" width="60" height="30" as="geometry" />
+          <mxGeometry x="950" y="140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_u4hgsqB1Eb9iGtBPcu-61" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="2b4e8129b02d487f-2">
-          <mxGeometry x="950" y="149.62" width="60" height="30.38" as="geometry" />
+          <mxGeometry x="990" y="59.81" width="60" height="30.38" as="geometry" />
         </mxCell>
         <mxCell id="2b4e8129b02d487f-3" value="Vehiculo" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2b4e8129b02d487f-1" vertex="1">
           <mxGeometry y="200" width="1470" height="150" as="geometry" />
@@ -88,7 +88,7 @@
         <mxCell id="2b4e8129b02d487f-12" value="Se enciende el vehiculo" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="2b4e8129b02d487f-3" vertex="1">
           <mxGeometry x="180" y="49.99999999999996" width="70" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="W_u4hgsqB1Eb9iGtBPcu-15" value="Analisa componente fisicos del vehiculo (Tanque de Gasolina, frenos. motor, neumaticos, temperatura)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-3">
+        <mxCell id="W_u4hgsqB1Eb9iGtBPcu-15" value="Analiza componente fisicos del vehiculo (Tanque de Gasolina, frenos. motor, neumaticos, temperatura)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-3">
           <mxGeometry x="290" y="33.5" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="W_u4hgsqB1Eb9iGtBPcu-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Todos los componentes se encuentran en buen estado?&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="2b4e8129b02d487f-3">
@@ -100,7 +100,7 @@
         <mxCell id="W_u4hgsqB1Eb9iGtBPcu-64" value="Se activa el GPS de&amp;nbsp; y&amp;nbsp; envia la hubicacion del vehiculo." style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="2b4e8129b02d487f-3">
           <mxGeometry x="915" y="50" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2b4e8129b02d487f-7" value="Entra en modo chekeo" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="2b4e8129b02d487f-3" vertex="1">
+        <mxCell id="2b4e8129b02d487f-7" value="Entra en modo chequeo" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="2b4e8129b02d487f-3" vertex="1">
           <mxGeometry x="65" y="50" width="70" height="37" as="geometry" />
         </mxCell>
         <mxCell id="W_u4hgsqB1Eb9iGtBPcu-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2b4e8129b02d487f-3" source="2b4e8129b02d487f-7" target="2b4e8129b02d487f-12">
@@ -112,7 +112,7 @@
         <mxCell id="2b4e8129b02d487f-4" value="Sistema de Información" style="swimlane;html=1;startSize=20;horizontal=0;" parent="2b4e8129b02d487f-1" vertex="1">
           <mxGeometry y="350" width="1470" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="W_u4hgsqB1Eb9iGtBPcu-10" value="Empeiza a registra la actividad del vehiculo." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-4">
+        <mxCell id="W_u4hgsqB1Eb9iGtBPcu-10" value="Empieza a registra la actividad del vehiculo." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-4">
           <mxGeometry x="170" y="50" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W_u4hgsqB1Eb9iGtBPcu-20" value="Guarda un registo del ultimo chequeo realizado" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-4">
